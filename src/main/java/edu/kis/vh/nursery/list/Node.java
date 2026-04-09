@@ -1,5 +1,10 @@
 package edu.kis.vh.nursery.list;
 
+/**
+ * Klasa reprezentująca pojedynczy element (węzeł) listy dwukierunkowej.
+ * Każdy węzeł przechowuje wartość oraz referencje do poprzedniego
+ * i następnego elementu listy.
+ */
 public class Node {
 
     private final int value;
