@@ -9,6 +9,10 @@ public class DefaultCountingOutRhymer {
 
     private final int[] numbers = new int[MAX_SIZE];
 
+    public int getTotal() {
+        return total;
+    }
+
     public int total = EMPTY_RHYMER_INDICATOR;
 
     public void countIn(int in) {
